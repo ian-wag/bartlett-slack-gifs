@@ -3,11 +3,12 @@
 import { promises as fs } from 'fs'
 import { join, extname } from 'path'
 
-import { loadGifs } from './gifs.js'
 
 import logging from 'debug-level'
 
-import JSON5 from 'JSON5'
+import JSON5 from 'json5'
+
+import { loadGifs } from './gifs.js'
 
 const log = logging.log('custom-gifs:build')
 
