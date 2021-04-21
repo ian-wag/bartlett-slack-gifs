@@ -44,7 +44,8 @@ jobs:
           git config --global user.email "email@pezcuckow.com"
           git config --global user.name "Pez Cuckow"
           git checkout main
-          git commit -am "Adding files"
+          git add --force build
+          git commit -m "Adding files"
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
