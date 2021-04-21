@@ -7,11 +7,10 @@ import logging from 'debug-level'
 
 import glob from 'glob-promise'
 import Handlebars from 'handlebars'
-import HandlebarsHelpers from 'handlebars-helpers'
 import JSON5 from 'json5'
 
 import { loadGifs } from './gifs.js'
-import { groupBy } from './utils.js'
+import { groupBy, titleize, capitalize } from './utils.js'
 
 const log = logging.log('custom-gifs:build')
 
@@ -97,7 +96,10 @@ async function generateMetaFile(gifDirectory, buildDirectory) {
 async function generateIndex(viewsDirectory, buildDirectory, gifsInfo) {
   const { gifs } = gifsInfo
 
-  Handlebars.registerHelper(HandlebarsHelpers(['string']))
+  Handlebars.registerHelper({
+    titleize,
+    capitalize,
+  })
 
   const indexHBSPath = join(viewsDirectory, 'index.handlebars')
   const partialsPath = join(viewsDirectory, 'partials/')
@@ -111,10 +113,12 @@ async function generateIndex(viewsDirectory, buildDirectory, gifsInfo) {
 
     const partialTemplate = await fs.readFile(partial)
 
-    Handlebars.registerPartial(partialName, partialTemplate.toString());
+    Handlebars.registerPartial(partialName, partialTemplate.toString())
   }
 
-  const template = Handlebars.compile(templateString.toString(), { noEscape: true })
+  const template = Handlebars.compile(templateString.toString(), {
+    noEscape: true,
+  })
 
   const byCategory = groupBy(gifs, 'category')
   Object.keys(byCategory).forEach((key) => {

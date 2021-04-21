@@ -22,7 +22,6 @@
     "glob": "^7.1.6",
     "glob-promise": "^4.1.0",
     "handlebars": "^4.7.7",
-    "handlebars-helpers": "^0.10.0",
     "json5": "^2.2.0"
   },
   "devDependencies": {
