@@ -1,10 +1,9 @@
-
-name: Optimize map and deploy
+name: Generate gh-pages
 
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
@@ -14,8 +13,30 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Optimize map
-        uses: thecodingmachine/map-optimizer-action@master
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 15
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Cache node modules
+        uses: actions/cache@v2
+        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install Yarn dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Run build script
+        run: |
+          yarn run build
 
       - name: Bash
         run: |
@@ -24,13 +45,14 @@ jobs:
           git config --global user.name "Pez Cuckow"
           git checkout master
           git commit -am "Adding files"
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: . # The folder the action should deploy.
-          BASE_BRANCH: master
+          FOLDER: build # The folder the action should deploy.
+          BASE_BRANCH: main
 
       - name: Bash2
         run: |
