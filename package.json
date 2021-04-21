@@ -1,15 +1,21 @@
 {
   "name": "custom-gifs-gif-repo",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "repository": "https://github.com/Pezmc/custom-gifs-gif-repo.git",
-  "license": "MIT",
-  "author": "Pez Cuckow <email@pezcuckow.com>",
+  "license": "GPL",
+  "author": "Pez Cuckow",
   "type": "module",
-  "main": "build.js",
+  "main": "./script/build.js",
   "scripts": {
     "build": "./script/build.js",
-    "clean": "rm -rf ./build"
+    "clean": "rm -rf ./build",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*": "prettier --ignore-unknown --write",
+    "*.js": "eslint --cache --fix",
+    "package.json": "sort-package-json"
   },
   "dependencies": {
     "debug-level": "^2.0.2",
@@ -23,8 +29,18 @@
     "eslint": "^7.24.0",
     "eslint-config-prettier": "^8.2.0",
     "eslint-plugin-import": "^2.22.1",
-    "prettier": "^2.2.1"
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "sort-package-json": "^1.49.0"
   },
+  "engines": {
+    "node": ">=14.15.0",
+    "yarn": ">=1.22.10"
+  },
+  "authors": [
+    "Pez Cuckow <email@pezcuckow.com>"
+  ],
   "volta": {
     "node": "15.14.0"
   }
