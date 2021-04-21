@@ -1,0 +1,9 @@
+{
+  "name": "custom-gifs-gif-repo",
+  "version": "0.0.1",
+  "main": "build.js",
+  "repository": "https://github.com/Pezmc/custom-gifs-gif-repo.git",
+  "author": "Pez Cuckow <email@pezcuckow.com>",
+  "license": "MIT",
+  "private": true
+}
