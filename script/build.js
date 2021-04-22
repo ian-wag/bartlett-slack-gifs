@@ -18,8 +18,9 @@ const GIFS_PATH = './gifs'
 const BUILD_PATH = './build'
 const WEB_PATH = './web'
 
-const GIFS_FULL_PATH = join(process.cwd(), GIFS_PATH)
 const BUILD_FULL_PATH = join(process.cwd(), BUILD_PATH)
+const GIFS_SOURCE_FULL_PATH = join(process.cwd(), GIFS_PATH)
+const GIFS_OUTPUT_FULL_PATH = join(BUILD_FULL_PATH, 'gifs')
 
 const VIEWS_FULL_PATH = join(process.cwd(), WEB_PATH, './views')
 const PUBLIC_FULL_PATH = join(process.cwd(), WEB_PATH, './public')
@@ -71,7 +72,7 @@ async function generateMetaFile(gifDirectory, buildDirectory) {
     await fs.readFile(join(gifDirectory, 'categories.json')),
   )
 
-  const gifs = await loadGifs(gifDirectory, categories)
+  const gifs = await loadGifs(buildDirectory, categories)
 
   const meta = {
     categories,
@@ -138,10 +139,13 @@ async function generateIndex(viewsDirectory, buildDirectory, gifsInfo) {
 /// Main
 
 async function main() {
-  log.info(`Building using gifs in ${GIFS_FULL_PATH}`)
+  log.info(`Building using gifs in ${GIFS_SOURCE_FULL_PATH}`)
 
-  await copyDir(GIFS_FULL_PATH, BUILD_FULL_PATH, ['.gif'], true)
-  const gifsInfo = await generateMetaFile(GIFS_FULL_PATH, BUILD_FULL_PATH)
+  await copyDir(GIFS_SOURCE_FULL_PATH, GIFS_OUTPUT_FULL_PATH, ['.gif'], true)
+  const gifsInfo = await generateMetaFile(
+    GIFS_SOURCE_FULL_PATH,
+    BUILD_FULL_PATH,
+  )
 
   await copyDir(PUBLIC_FULL_PATH, BUILD_FULL_PATH, [], true)
   await generateIndex(VIEWS_FULL_PATH, BUILD_FULL_PATH, gifsInfo)
