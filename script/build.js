@@ -109,7 +109,7 @@ async function generateIndex(viewsDirectory, buildDirectory, gifsInfo) {
   for (const partial of partials) {
     const partialName = basename(partial).split('.')[0]
 
-    log.info(`Registered partial ${partialName} to ${partial}`)
+    log.debug(`Registered partial ${partialName} to ${partial}`)
 
     const partialTemplate = await fs.readFile(partial)
 

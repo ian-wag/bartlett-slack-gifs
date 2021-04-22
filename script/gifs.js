@@ -30,14 +30,19 @@ const checkForBigGifs = (gifsInfo) => {
 const sentCategoryWarnings = {}
 async function parseGif(root, categoryTags, gifFullPath) {
   const gifPath = gifFullPath.replace(root + '/', '')
-  const [folder, subfolder, ...name] = gifPath.split('/') // only consider the last two folders
+  const pathInfo = gifPath.split('/')
 
-  const category = folder
+  // only consider the last two folders
+  const name = pathInfo.pop()
+  const subfolder = pathInfo.pop()
+  const folder = pathInfo.pop()
+
+  let category = folder
   let subcategory = subfolder
 
   // Subfolders are optional
-  if (!name.length) {
-    name.push(subfolder)
+  if (!category?.length || !categoryTags[category]) {
+    category = subcategory
     subcategory = undefined
   }
 
@@ -62,10 +67,7 @@ async function parseGif(root, categoryTags, gifFullPath) {
   const { size } = await fs.stat(gifFullPath)
 
   return {
-    name: name
-      .join(' ')
-      .replace('.gif', '')
-      .replaceAll(/[^A-z']/g, ' '),
+    name: name.replace('.gif', '').replaceAll(/[^A-z']/g, ' '),
     path: gifPath,
     category: categoryText,
     categoryTags: categoryTags[category],
