@@ -22,7 +22,7 @@
     "glob": "^7.1.6",
     "glob-promise": "^4.1.0",
     "handlebars": "^4.7.7",
-    "json5": "^2.2.0"
+    "json5": "^2.2.2"
   },
   "devDependencies": {
     "eslint": "^7.24.0",
