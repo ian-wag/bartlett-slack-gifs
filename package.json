@@ -18,29 +18,29 @@
     "package.json": "sort-package-json"
   },
   "dependencies": {
-    "debug-level": "^2.0.2",
-    "glob": "^7.1.6",
-    "glob-promise": "^4.1.0",
-    "handlebars": "^4.7.7",
-    "json5": "^2.2.2"
+    "debug-level": "^2.1.2",
+    "glob": "^7.2.3",
+    "glob-promise": "^4.2.2",
+    "handlebars": "^4.7.8",
+    "json5": "^2.2.3"
   },
   "devDependencies": {
-    "eslint": "^7.24.0",
-    "eslint-config-prettier": "^8.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "husky": "^6.0.0",
-    "lint-staged": "^10.5.4",
-    "prettier": "^2.2.1",
-    "sort-package-json": "^1.49.0"
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
+    "sort-package-json": "^2.5.1"
   },
   "engines": {
-    "node": "^15.14.0",
+    "node": "^16.20.2",
     "yarn": "^1.22.10"
+  },
+  "volta": {
+    "node": "16.20.2"
   },
   "authors": [
     "Pez Cuckow <email@pezcuckow.com>"
-  ],
-  "volta": {
-    "node": "15.14.0"
-  }
+  ]
 }
