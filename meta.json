@@ -1,0 +1,987 @@
+{
+  "categories": {
+    "yes": [
+      "affirmative",
+      "ok",
+      "okay",
+      "on board",
+      "yea",
+      "yes"
+    ],
+    "maybe": [
+      "perhaps",
+      "potentially",
+      "not sure"
+    ],
+    "no": [
+      "negative",
+      "nope"
+    ],
+    "happy": [
+      "cheerful",
+      "glee",
+      "merry",
+      "joyful"
+    ],
+    "sad": [
+      "sadness",
+      "upset"
+    ],
+    "angry": [
+      "annoyed",
+      "cross",
+      "irritated"
+    ],
+    "fearful": [
+      "afraid",
+      "scared"
+    ],
+    "surprised": [
+      "shock"
+    ],
+    "anticipating": [
+      "expectant"
+    ],
+    "other": [],
+    "high-five": [
+      "high five"
+    ],
+    "thumbs-up": [
+      "plus one",
+      "+1",
+      "agree"
+    ],
+    "thumbs-down": [
+      "minus one",
+      "-1",
+      "nope"
+    ],
+    "disappointment": [
+      "disappointed",
+      "defeated",
+      "let down",
+      "failure"
+    ],
+    "excitement": [
+      "excited",
+      "enthused",
+      "excitation"
+    ],
+    "facepalm": [
+      "face palm"
+    ],
+    "laughing": [
+      "lol",
+      "joke",
+      "funny"
+    ],
+    "lonely": [
+      "alone",
+      "isolated"
+    ],
+    "clap": [
+      "impressed",
+      "great",
+      "clapping",
+      "applause",
+      "handclap",
+      "cheers"
+    ],
+    "disaster": [
+      "failure",
+      "calamity",
+      "catastrophe"
+    ],
+    "finished": [
+      "done",
+      "complete",
+      "all done",
+      "it's done"
+    ],
+    "mic-drop": [
+      "mic drop",
+      "peace out"
+    ],
+    "sarcasm": [
+      "sarcastic",
+      "irony",
+      "satire"
+    ],
+    "thinking": [
+      "thought",
+      "wondering",
+      "pondering"
+    ],
+    "working": [
+      "busy",
+      "programming"
+    ],
+    "testing": [
+      "test",
+      "hello world"
+    ]
+  },
+  "gifs": [
+    {
+      "name": "andy hits computer",
+      "path": "gifs/angry/andy-hits-computer.gif",
+      "category": "angry",
+      "categoryTags": [
+        "annoyed",
+        "cross",
+        "irritated"
+      ],
+      "subcategory": "",
+      "subcategoryTags": [],
+      "size": 1454359
+    },
+    {
+      "name": "dancing cockroaches",
+      "path": "gifs/anticipating/excitement/dancing-cockroaches.gif",
+      "category": "anticipating",
+      "categoryTags": [
+        "expectant"
+      ],
+      "subcategory": "excitement",
+      "subcategoryTags": [
+        "excited",
+        "enthused",
+        "excitation"
+      ],
+      "size": 520036
+    },
+    {
+      "name": "giggle jim carrey",
+      "path": "gifs/anticipating/excitement/giggle-jim-carrey.gif",
+      "category": "anticipating",
+      "categoryTags": [
+        "expectant"
+      ],
+      "subcategory": "excitement",
+      "subcategoryTags": [
+        "excited",
+        "enthused",
+        "excitation"
+      ],
+      "size": 1731009
+    },
+    {
+      "name": "its working star wars",
+      "path": "gifs/anticipating/excitement/its-working-star-wars.gif",
+      "category": "anticipating",
+      "categoryTags": [
+        "expectant"
+      ],
+      "subcategory": "excitement",
+      "subcategoryTags": [
+        "excited",
+        "enthused",
+        "excitation"
+      ],
+      "size": 1574749
+    },
+    {
+      "name": "pleases me",
+      "path": "gifs/anticipating/excitement/pleases-me.gif",
+      "category": "anticipating",
+      "categoryTags": [
+        "expectant"
+      ],
+      "subcategory": "excitement",
+      "subcategoryTags": [
+        "excited",
+        "enthused",
+        "excitation"
+      ],
+      "size": 1656362
+    },
+    {
+      "name": "friends joey chandler clapping",
+      "path": "gifs/happy/clap/friends-joey-chandler-clapping.gif",
+      "category": "happy",
+      "categoryTags": [
+        "cheerful",
+        "glee",
+        "merry",
+        "joyful"
+      ],
+      "subcategory": "clap",
+      "subcategoryTags": [
+        "impressed",
+        "great",
+        "clapping",
+        "applause",
+        "handclap",
+        "cheers"
+      ],
+      "size": 1809478
+    },
+    {
+      "name": "morgan freeman impressed clapping",
+      "path": "gifs/happy/clap/morgan-freeman-impressed-clapping.gif",
+      "category": "happy",
+      "categoryTags": [
+        "cheerful",
+        "glee",
+        "merry",
+        "joyful"
+      ],
+      "subcategory": "clap",
+      "subcategoryTags": [
+        "impressed",
+        "great",
+        "clapping",
+        "applause",
+        "handclap",
+        "cheers"
+      ],
+      "size": 1959945
+    },
+    {
+      "name": "rachel phoebe jumping clapping",
+      "path": "gifs/happy/clap/rachel-phoebe-jumping-clapping.gif",
+      "category": "happy",
+      "categoryTags": [
+        "cheerful",
+        "glee",
+        "merry",
+        "joyful"
+      ],
+      "subcategory": "clap",
+      "subcategoryTags": [
+        "impressed",
+        "great",
+        "clapping",
+        "applause",
+        "handclap",
+        "cheers"
+      ],
+      "size": 962401
+    },
+    {
+      "name": "will smith fresh prince clapping",
+      "path": "gifs/happy/clap/will-smith-fresh-prince-clapping.gif",
+      "category": "happy",
+      "categoryTags": [
+        "cheerful",
+        "glee",
+        "merry",
+        "joyful"
+      ],
+      "subcategory": "clap",
+      "subcategoryTags": [
+        "impressed",
+        "great",
+        "clapping",
+        "applause",
+        "handclap",
+        "cheers"
+      ],
+      "size": 1932705
+    },
+    {
+      "name": "amy seth snl high five",
+      "path": "gifs/happy/high-five/amy-seth-snl-high-five.gif",
+      "category": "happy",
+      "categoryTags": [
+        "cheerful",
+        "glee",
+        "merry",
+        "joyful"
+      ],
+      "subcategory": "high five",
+      "subcategoryTags": [
+        "high five"
+      ],
+      "size": 868353
+    },
+    {
+      "name": "borat high five",
+      "path": "gifs/happy/high-five/borat-high-five.gif",
+      "category": "happy",
+      "categoryTags": [
+        "cheerful",
+        "glee",
+        "merry",
+        "joyful"
+      ],
+      "subcategory": "high five",
+      "subcategoryTags": [
+        "high five"
+      ],
+      "size": 1909547
+    },
+    {
+      "name": "it crowd high five",
+      "path": "gifs/happy/high-five/it-crowd-high-five.gif",
+      "category": "happy",
+      "categoryTags": [
+        "cheerful",
+        "glee",
+        "merry",
+        "joyful"
+      ],
+      "subcategory": "high five",
+      "subcategoryTags": [
+        "high five"
+      ],
+      "size": 404764
+    },
+    {
+      "name": "pokemon high five",
+      "path": "gifs/happy/high-five/pokemon-high-five.gif",
+      "category": "happy",
+      "categoryTags": [
+        "cheerful",
+        "glee",
+        "merry",
+        "joyful"
+      ],
+      "subcategory": "high five",
+      "subcategoryTags": [
+        "high five"
+      ],
+      "size": 898935
+    },
+    {
+      "name": "proud of myself",
+      "path": "gifs/happy/high-five/proud-of-myself.gif",
+      "category": "happy",
+      "categoryTags": [
+        "cheerful",
+        "glee",
+        "merry",
+        "joyful"
+      ],
+      "subcategory": "high five",
+      "subcategoryTags": [
+        "high five"
+      ],
+      "size": 793096
+    },
+    {
+      "name": "laughing chris evans",
+      "path": "gifs/happy/laughing/laughing-chris-evans.gif",
+      "category": "happy",
+      "categoryTags": [
+        "cheerful",
+        "glee",
+        "merry",
+        "joyful"
+      ],
+      "subcategory": "laughing",
+      "subcategoryTags": [
+        "lol",
+        "joke",
+        "funny"
+      ],
+      "size": 1464310
+    },
+    {
+      "name": "laughing dastardly dog",
+      "path": "gifs/happy/laughing/laughing-dastardly-dog.gif",
+      "category": "happy",
+      "categoryTags": [
+        "cheerful",
+        "glee",
+        "merry",
+        "joyful"
+      ],
+      "subcategory": "laughing",
+      "subcategoryTags": [
+        "lol",
+        "joke",
+        "funny"
+      ],
+      "size": 164888
+    },
+    {
+      "name": "laughing joey chandler friends",
+      "path": "gifs/happy/laughing/laughing-joey-chandler-friends.gif",
+      "category": "happy",
+      "categoryTags": [
+        "cheerful",
+        "glee",
+        "merry",
+        "joyful"
+      ],
+      "subcategory": "laughing",
+      "subcategoryTags": [
+        "lol",
+        "joke",
+        "funny"
+      ],
+      "size": 1613056
+    },
+    {
+      "name": "jimmy fallon shrug maybe",
+      "path": "gifs/maybe/jimmy-fallon-shrug-maybe.gif",
+      "category": "maybe",
+      "categoryTags": [
+        "perhaps",
+        "potentially",
+        "not sure"
+      ],
+      "subcategory": "",
+      "subcategoryTags": [],
+      "size": 1284555
+    },
+    {
+      "name": "schitts creek maybe possibly",
+      "path": "gifs/maybe/schitts-creek-maybe-possibly.gif",
+      "category": "maybe",
+      "categoryTags": [
+        "perhaps",
+        "potentially",
+        "not sure"
+      ],
+      "subcategory": "",
+      "subcategoryTags": [],
+      "size": 1261156
+    },
+    {
+      "name": "the office jim maybe considering",
+      "path": "gifs/maybe/the-office-jim-maybe-considering.gif",
+      "category": "maybe",
+      "categoryTags": [
+        "perhaps",
+        "potentially",
+        "not sure"
+      ],
+      "subcategory": "",
+      "subcategoryTags": [],
+      "size": 1276525
+    },
+    {
+      "name": "back out of conversation vanish",
+      "path": "gifs/no/back-out-of-conversation-vanish.gif",
+      "category": "no",
+      "categoryTags": [
+        "negative",
+        "nope"
+      ],
+      "subcategory": "",
+      "subcategoryTags": [],
+      "size": 506966
+    },
+    {
+      "name": "don't even care",
+      "path": "gifs/no/don't-even-care.gif",
+      "category": "no",
+      "categoryTags": [
+        "negative",
+        "nope"
+      ],
+      "subcategory": "",
+      "subcategoryTags": [],
+      "size": 555175
+    },
+    {
+      "name": "thumbs down",
+      "path": "gifs/no/thumbs-down/thumbs-down.gif",
+      "category": "no",
+      "categoryTags": [
+        "negative",
+        "nope"
+      ],
+      "subcategory": "thumbs down",
+      "subcategoryTags": [
+        "minus one",
+        "-1",
+        "nope"
+      ],
+      "size": 1505796
+    },
+    {
+      "name": "hand wipe",
+      "path": "gifs/other/finished/hand-wipe.gif",
+      "category": "other",
+      "categoryTags": [],
+      "subcategory": "finished",
+      "subcategoryTags": [
+        "done",
+        "complete",
+        "all done",
+        "it's done"
+      ],
+      "size": 1720415
+    },
+    {
+      "name": "deal with it",
+      "path": "gifs/other/mic-drop/deal-with-it.gif",
+      "category": "other",
+      "categoryTags": [],
+      "subcategory": "mic drop",
+      "subcategoryTags": [
+        "mic drop",
+        "peace out"
+      ],
+      "size": 1438657
+    },
+    {
+      "name": "drop the mic",
+      "path": "gifs/other/mic-drop/drop-the-mic.gif",
+      "category": "other",
+      "categoryTags": [],
+      "subcategory": "mic drop",
+      "subcategoryTags": [
+        "mic drop",
+        "peace out"
+      ],
+      "size": 511817
+    },
+    {
+      "name": "sarcastic clapping",
+      "path": "gifs/other/sarcasm/sarcastic-clapping.gif",
+      "category": "other",
+      "categoryTags": [],
+      "subcategory": "sarcasm",
+      "subcategoryTags": [
+        "sarcastic",
+        "irony",
+        "satire"
+      ],
+      "size": 474620
+    },
+    {
+      "name": "testing printer",
+      "path": "gifs/other/testing/testing-printer.gif",
+      "category": "other",
+      "categoryTags": [],
+      "subcategory": "testing",
+      "subcategoryTags": [
+        "test",
+        "hello world"
+      ],
+      "size": 156697
+    },
+    {
+      "name": "testing transmision",
+      "path": "gifs/other/testing/testing-transmision.gif",
+      "category": "other",
+      "categoryTags": [],
+      "subcategory": "testing",
+      "subcategoryTags": [
+        "test",
+        "hello world"
+      ],
+      "size": 1014479
+    },
+    {
+      "name": "trippy test card",
+      "path": "gifs/other/testing/trippy-test-card.gif",
+      "category": "other",
+      "categoryTags": [],
+      "subcategory": "testing",
+      "subcategoryTags": [
+        "test",
+        "hello world"
+      ],
+      "size": 1619005
+    },
+    {
+      "name": "homer thinking deep thought",
+      "path": "gifs/other/thinking/homer-thinking-deep-thought.gif",
+      "category": "other",
+      "categoryTags": [],
+      "subcategory": "thinking",
+      "subcategoryTags": [
+        "thought",
+        "wondering",
+        "pondering"
+      ],
+      "size": 416033
+    },
+    {
+      "name": "indiana jones sand bag",
+      "path": "gifs/other/thinking/indiana-jones-sand-bag.gif",
+      "category": "other",
+      "categoryTags": [],
+      "subcategory": "thinking",
+      "subcategoryTags": [
+        "thought",
+        "wondering",
+        "pondering"
+      ],
+      "size": 1598125
+    },
+    {
+      "name": "chuck_noblet_calculating",
+      "path": "gifs/other/working/chuck_noblet_calculating.gif",
+      "category": "other",
+      "categoryTags": [],
+      "subcategory": "working",
+      "subcategoryTags": [
+        "busy",
+        "programming"
+      ],
+      "size": 1415430
+    },
+    {
+      "name": "jim carrey working typing keyboard",
+      "path": "gifs/other/working/jim-carrey-working-typing-keyboard.gif",
+      "category": "other",
+      "categoryTags": [],
+      "subcategory": "working",
+      "subcategoryTags": [
+        "busy",
+        "programming"
+      ],
+      "size": 398165
+    },
+    {
+      "name": "enough internet",
+      "path": "gifs/sad/disappointment/enough internet.gif",
+      "category": "sad",
+      "categoryTags": [
+        "sadness",
+        "upset"
+      ],
+      "subcategory": "disappointment",
+      "subcategoryTags": [
+        "disappointed",
+        "defeated",
+        "let down",
+        "failure"
+      ],
+      "size": 721252
+    },
+    {
+      "name": "throw away computer",
+      "path": "gifs/sad/disappointment/throw-away-computer.gif",
+      "category": "sad",
+      "categoryTags": [
+        "sadness",
+        "upset"
+      ],
+      "subcategory": "disappointment",
+      "subcategoryTags": [
+        "disappointed",
+        "defeated",
+        "let down",
+        "failure"
+      ],
+      "size": 878932
+    },
+    {
+      "name": "unimpressed cat",
+      "path": "gifs/sad/disappointment/unimpressed cat.gif",
+      "category": "sad",
+      "categoryTags": [
+        "sadness",
+        "upset"
+      ],
+      "subcategory": "disappointment",
+      "subcategoryTags": [
+        "disappointed",
+        "defeated",
+        "let down",
+        "failure"
+      ],
+      "size": 377477
+    },
+    {
+      "name": "guy trying to wash car",
+      "path": "gifs/sad/disaster/guy-trying-to-wash-car.gif",
+      "category": "sad",
+      "categoryTags": [
+        "sadness",
+        "upset"
+      ],
+      "subcategory": "disaster",
+      "subcategoryTags": [
+        "failure",
+        "calamity",
+        "catastrophe"
+      ],
+      "size": 1246795
+    },
+    {
+      "name": "kenneth plunger",
+      "path": "gifs/sad/disaster/kenneth-plunger.gif",
+      "category": "sad",
+      "categoryTags": [
+        "sadness",
+        "upset"
+      ],
+      "subcategory": "disaster",
+      "subcategoryTags": [
+        "failure",
+        "calamity",
+        "catastrophe"
+      ],
+      "size": 1901467
+    },
+    {
+      "name": "mr bean",
+      "path": "gifs/sad/disaster/mr-bean.gif",
+      "category": "sad",
+      "categoryTags": [
+        "sadness",
+        "upset"
+      ],
+      "subcategory": "disaster",
+      "subcategoryTags": [
+        "failure",
+        "calamity",
+        "catastrophe"
+      ],
+      "size": 1967980
+    },
+    {
+      "name": "paperboy bike crash",
+      "path": "gifs/sad/disaster/paperboy-bike-crash.gif",
+      "category": "sad",
+      "categoryTags": [
+        "sadness",
+        "upset"
+      ],
+      "subcategory": "disaster",
+      "subcategoryTags": [
+        "failure",
+        "calamity",
+        "catastrophe"
+      ],
+      "size": 1473896
+    },
+    {
+      "name": "warehouse forklift crash",
+      "path": "gifs/sad/disaster/warehouse-forklift-crash.gif",
+      "category": "sad",
+      "categoryTags": [
+        "sadness",
+        "upset"
+      ],
+      "subcategory": "disaster",
+      "subcategoryTags": [
+        "failure",
+        "calamity",
+        "catastrophe"
+      ],
+      "size": 1951386
+    },
+    {
+      "name": "picard facepalm",
+      "path": "gifs/sad/facepalm/picard-facepalm.gif",
+      "category": "sad",
+      "categoryTags": [
+        "sadness",
+        "upset"
+      ],
+      "subcategory": "facepalm",
+      "subcategoryTags": [
+        "face palm"
+      ],
+      "size": 1186376
+    },
+    {
+      "name": "feeling lonely simpsons milhouse",
+      "path": "gifs/sad/lonely/feeling-lonely-simpsons-milhouse.gif",
+      "category": "sad",
+      "categoryTags": [
+        "sadness",
+        "upset"
+      ],
+      "subcategory": "lonely",
+      "subcategoryTags": [
+        "alone",
+        "isolated"
+      ],
+      "size": 255587
+    },
+    {
+      "name": "raining dr who",
+      "path": "gifs/sad/lonely/raining-dr-who.gif",
+      "category": "sad",
+      "categoryTags": [
+        "sadness",
+        "upset"
+      ],
+      "subcategory": "lonely",
+      "subcategoryTags": [
+        "alone",
+        "isolated"
+      ],
+      "size": 309302
+    },
+    {
+      "name": "obama crying",
+      "path": "gifs/sad/obama-crying.gif",
+      "category": "sad",
+      "categoryTags": [
+        "sadness",
+        "upset"
+      ],
+      "subcategory": "",
+      "subcategoryTags": [],
+      "size": 1249682
+    },
+    {
+      "name": "peter parker crying",
+      "path": "gifs/sad/peter-parker-crying.gif",
+      "category": "sad",
+      "categoryTags": [
+        "sadness",
+        "upset"
+      ],
+      "subcategory": "",
+      "subcategoryTags": [],
+      "size": 338783
+    },
+    {
+      "name": "can't believe it",
+      "path": "gifs/surprised/can't-believe-it.gif",
+      "category": "surprised",
+      "categoryTags": [
+        "shock"
+      ],
+      "subcategory": "",
+      "subcategoryTags": [],
+      "size": 509302
+    },
+    {
+      "name": "challenge accepted",
+      "path": "gifs/yes/challenge-accepted.gif",
+      "category": "yes",
+      "categoryTags": [
+        "affirmative",
+        "ok",
+        "okay",
+        "on board",
+        "yea",
+        "yes"
+      ],
+      "subcategory": "",
+      "subcategoryTags": [],
+      "size": 467297
+    },
+    {
+      "name": "complete agreement",
+      "path": "gifs/yes/complete-agreement.gif",
+      "category": "yes",
+      "categoryTags": [
+        "affirmative",
+        "ok",
+        "okay",
+        "on board",
+        "yea",
+        "yes"
+      ],
+      "subcategory": "",
+      "subcategoryTags": [],
+      "size": 1202779
+    },
+    {
+      "name": "good point",
+      "path": "gifs/yes/good-point.gif",
+      "category": "yes",
+      "categoryTags": [
+        "affirmative",
+        "ok",
+        "okay",
+        "on board",
+        "yea",
+        "yes"
+      ],
+      "subcategory": "",
+      "subcategoryTags": [],
+      "size": 502466
+    },
+    {
+      "name": "chuck norris",
+      "path": "gifs/yes/thumbs-up/chuck-norris.gif",
+      "category": "yes",
+      "categoryTags": [
+        "affirmative",
+        "ok",
+        "okay",
+        "on board",
+        "yea",
+        "yes"
+      ],
+      "subcategory": "thumbs up",
+      "subcategoryTags": [
+        "plus one",
+        "+1",
+        "agree"
+      ],
+      "size": 1493960
+    },
+    {
+      "name": "suits joey",
+      "path": "gifs/yes/thumbs-up/suits-joey.gif",
+      "category": "yes",
+      "categoryTags": [
+        "affirmative",
+        "ok",
+        "okay",
+        "on board",
+        "yea",
+        "yes"
+      ],
+      "subcategory": "thumbs up",
+      "subcategoryTags": [
+        "plus one",
+        "+1",
+        "agree"
+      ],
+      "size": 1011213
+    },
+    {
+      "name": "surprised upvote",
+      "path": "gifs/yes/thumbs-up/surprised-upvote.gif",
+      "category": "yes",
+      "categoryTags": [
+        "affirmative",
+        "ok",
+        "okay",
+        "on board",
+        "yea",
+        "yes"
+      ],
+      "subcategory": "thumbs up",
+      "subcategoryTags": [
+        "plus one",
+        "+1",
+        "agree"
+      ],
+      "size": 559413
+    },
+    {
+      "name": "terminator",
+      "path": "gifs/yes/thumbs-up/terminator.gif",
+      "category": "yes",
+      "categoryTags": [
+        "affirmative",
+        "ok",
+        "okay",
+        "on board",
+        "yea",
+        "yes"
+      ],
+      "subcategory": "thumbs up",
+      "subcategoryTags": [
+        "plus one",
+        "+1",
+        "agree"
+      ],
+      "size": 1317624
+    },
+    {
+      "name": "yup yep yes",
+      "path": "gifs/yes/yup-yep-yes.gif",
+      "category": "yes",
+      "categoryTags": [
+        "affirmative",
+        "ok",
+        "okay",
+        "on board",
+        "yea",
+        "yes"
+      ],
+      "subcategory": "",
+      "subcategoryTags": [],
+      "size": 189638
+    }
+  ]
+}
