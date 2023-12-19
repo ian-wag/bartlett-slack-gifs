@@ -1,0 +1,8 @@
+# Ignore all Handlebars templates
+*.handlebars
+
+# Alternatively, if you want to be more specific, ignore only certain Handlebars files
+web/views/*.handlebars
+
+# Or ignore an entire directory
+web/views/
