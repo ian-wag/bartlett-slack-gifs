@@ -119,6 +119,11 @@
     "testing": [
       "test",
       "hello world"
+    ],
+    "nod": [
+      "yes",
+      "nod",
+      "agree"
     ]
   },
   "gifs": [
@@ -199,6 +204,11 @@
       "name": "nod",
       "path": "gifs/nod/nod.gif",
       "category": "nod",
+      "categoryTags": [
+        "yes",
+        "nod",
+        "agree"
+      ],
       "subcategory": "",
       "subcategoryTags": [],
       "size": 3318684
