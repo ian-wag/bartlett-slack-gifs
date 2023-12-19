@@ -889,7 +889,7 @@
     },
     {
       "name": "nod",
-      "path": "gifs/yes/nod.gif",
+      "path": "gifs/yes/nod/nod.gif",
       "category": "yes",
       "categoryTags": [
         "affirmative",
@@ -899,7 +899,7 @@
         "yea",
         "yes"
       ],
-      "subcategory": "",
+      "subcategory": "nod",
       "subcategoryTags": [],
       "size": 3318684
     },
