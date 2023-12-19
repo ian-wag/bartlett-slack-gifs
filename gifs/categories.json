@@ -40,5 +40,6 @@
   "working": ["busy", "programming"],
 
   // Other
-  "testing": ["test", "hello world"]
+  "testing": ["test", "hello world"],
+  "nod": ["yes", "nod", "agree"]
 }
