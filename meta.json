@@ -493,6 +493,14 @@
       "size": 1505796
     },
     {
+      "name": "nod",
+      "path": "gifs/nod/nod.gif",
+      "category": "nod",
+      "subcategory": "",
+      "subcategoryTags": [],
+      "size": 3318684
+    },
+    {
       "name": "hand wipe",
       "path": "gifs/other/finished/hand-wipe.gif",
       "category": "other",
@@ -886,22 +894,6 @@
       "subcategory": "",
       "subcategoryTags": [],
       "size": 502466
-    },
-    {
-      "name": "nod",
-      "path": "gifs/yes/nod/nod.gif",
-      "category": "yes",
-      "categoryTags": [
-        "affirmative",
-        "ok",
-        "okay",
-        "on board",
-        "yea",
-        "yes"
-      ],
-      "subcategory": "nod",
-      "subcategoryTags": [],
-      "size": 3318684
     },
     {
       "name": "chuck norris",
